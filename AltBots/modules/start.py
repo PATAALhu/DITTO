@@ -11,7 +11,7 @@ START_BUTTON = [
         Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/DPZ_BY_DITTO"),
         Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/PATAALOK_999")
     ],
-
+    
 ]
 
 
@@ -32,7 +32,7 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ʙʀ꯭𐑵ʜ꯭ᴍ꯭𐑵s꯭ᴛʀ꯭ᷝ𐑵](buttonurl:https://t.me/Ditto_999)**\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ʙʀ꯭𐑵ʜ꯭ᴍ꯭𐑵s꯭ᴛʀ꯭ᷝ𐑵](https://t.me/Ditto_999)**\n\n"
         TEXT += f"» **xʙᴏᴛꜱ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
@@ -41,4 +41,4 @@ async def start(event):
                     "https://telegra.ph/file/ec9abca4f8076a96956fa.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
-                )
+        )
