@@ -10,8 +10,9 @@ START_BUTTON = [
     [
         Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/DPZ_BY_DITTO"),
         Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/PATAALOK_999")
-    ],
-]
+    ]
+
+    
 @X1.on(events.NewMessage(pattern="/start"))
 @X2.on(events.NewMessage(pattern="/start"))
 @X3.on(events.NewMessage(pattern="/start"))
